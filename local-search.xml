@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>MC服务器搭建指南</title>
+    <link href="/2025/12/22/MC%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/"/>
+    <url>/2025/12/22/MC%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/</url>
+    
+    <content type="html"><![CDATA[<div class="note note-info">            <p><strong>📢说在前面：</strong><br>本教程旨在较为全面详细的介绍目前比较主流（我使用比较稳定）的联机方式与服务器搭建技巧。同时包含各种服务端的差异分析、配置摘要以及安全防护基本知识。</p>          </div><div class="note note-warning">            <p><strong>⚠️注意事项</strong><br>本教程仅针对<strong>Minecraft® Java Edition</strong>，基岩版以及其他重构服务端不在讨论范围内。</p>          </div><p>&emsp;&emsp;MC作为一款社交属性浓厚的游戏，与朋友的相处必定是不可或缺的一部分。那么，作为一个联机小白，怎么样才能和朋友愉快的联机呢？<br>&emsp;&emsp;MC联机首先分为客户端间的<strong>直接联机</strong>（广播到局域网）以及使用专门的服务端开设<strong>服务器</strong>两种方式，具体差异如下图。</p><table><thead><tr><th align="center">特点</th><th align="center">直接联机</th><th align="center">MC服务器</th></tr></thead><tbody><tr><td align="center"><strong>模组&#x2F;整合包</strong></td><td align="center">✅</td><td align="center">✅</td></tr><tr><td align="center"><strong>插件Plugin</strong></td><td align="center">⬜</td><td align="center">✅</td></tr><tr><td align="center"><strong>数据包</strong></td><td align="center">✅</td><td align="center">✅</td></tr><tr><td align="center"><strong>原版</strong></td><td align="center">✅</td><td align="center">✅</td></tr><tr><td align="center"><strong>离线服务器</strong></td><td align="center">✅</td><td align="center">✅</td></tr><tr><td align="center"><strong>设备要求</strong></td><td align="center">无需额外服务器</td><td align="center">需要服务器&#x2F;闲置设备</td></tr><tr><td align="center"><strong>服主在线要求</strong></td><td align="center">联机时<strong>需要</strong>服主在线</td><td align="center">无需服主在线</td></tr></tbody></table>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Server</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>神经递质受体分布总结</title>
     <link href="/2025/11/21/%E7%A5%9E%E7%BB%8F%E9%80%92%E8%B4%A8%E5%8F%97%E4%BD%93%E5%88%86%E5%B8%83%E6%80%BB%E7%BB%93/"/>
     <url>/2025/11/21/%E7%A5%9E%E7%BB%8F%E9%80%92%E8%B4%A8%E5%8F%97%E4%BD%93%E5%88%86%E5%B8%83%E6%80%BB%E7%BB%93/</url>
