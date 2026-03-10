@@ -4,6 +4,29 @@
   
   
   <entry>
+    <title>[RuanLab]细胞传代操作指南</title>
+    <link href="/2026/03/11/RuanLab-%E7%BB%86%E8%83%9E%E4%BC%A0%E4%BB%A3%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/"/>
+    <url>/2026/03/11/RuanLab-%E7%BB%86%E8%83%9E%E4%BC%A0%E4%BB%A3%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</url>
+    
+    <content type="html"><![CDATA[<div class="note note-info">            <p><strong>🔬说在前面：</strong><br>本教程以<strong>293T</strong>细胞为例，记录细胞传代Protocol<br>默认做好无菌规范操作，不再强调</p>          </div><h2 id="器材准备"><a href="#器材准备" class="headerlink" title="器材准备"></a>器材准备</h2><ol><li>带血清的培养基</li><li>PBS</li><li>胰酶</li><li>传代间隔一天的293t细胞</li><li>离心管</li><li>培养皿</li><li>移液枪</li><li>枪头</li></ol><h2 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h2><ol><li>吸尽培养皿中培养基，加入2mLPBS清洗（滴加到边缘，防止冲下细胞，晃动培养皿清洗），吸尽PBS</li><li>加入2mLPBS清洗，吸尽PBS</li><li>加入0.5mL胰酶，晃匀，放入37℃培养箱消化2min</li><li>加入2mL带血清的培养基，吹打均匀，转移到离心管中</li><li>离心1000rpm，3min</li><li>弃上清，加入2mL带血清的培养基，重悬，吹打均匀</li><li>细胞计数</li><li>取500w细胞转移到新的培养皿（d&#x3D;10cm）中</li><li>补带血清的培养基至8mL</li><li>放至37℃培养箱培养</li></ol><div class="note note-danger">            <p><strong>⚠️注意事项</strong><br>本指南仅<strong>个人记录</strong>，且<strong>仅供参考</strong>，若因参考本指南造成任何后果，<strong>本人不承担任何责任！</strong></p>          </div>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Medicine</tag>
+      
+      <tag>RuanLab</tag>
+      
+      <tag>Protocol</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>MC服务器搭建指南</title>
     <link href="/2025/12/22/MC%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/"/>
     <url>/2025/12/22/MC%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/</url>
