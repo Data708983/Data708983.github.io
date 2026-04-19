@@ -4,6 +4,98 @@
   
   
   <entry>
+    <title>[RuanLab]感受态细菌转化</title>
+    <link href="/2026/04/19/RuanLab-%E6%84%9F%E5%8F%97%E6%80%81%E7%BB%86%E8%8F%8C%E8%BD%AC%E5%8C%96/"/>
+    <url>/2026/04/19/RuanLab-%E6%84%9F%E5%8F%97%E6%80%81%E7%BB%86%E8%8F%8C%E8%BD%AC%E5%8C%96/</url>
+    
+    <content type="html"><![CDATA[<div class="note note-info">            <p><strong>🔬说在前面：</strong><br>默认做好规范操作，不再强调</p>          </div><div class="note note-danger">            <p><strong>⚠️注意事项</strong><br>本指南仅<strong>个人记录</strong>，且<strong>仅供参考</strong>，若因参考本指南造成任何后果，<strong>本人不承担任何责任！</strong></p>          </div><h2 id="连接产物转化步骤"><a href="#连接产物转化步骤" class="headerlink" title="连接产物转化步骤"></a>连接产物转化步骤</h2><ol><li>冰盒接冰</li><li>拿钥匙去-80℃冰箱拿感受态细胞</li><li><strong>全程冰上</strong>解冻，<strong>水浴锅42℃预热</strong></li><li>取50μL加5μL产物，冰上<strong>30min</strong></li><li>热激<strong>90s</strong></li><li>冰上<strong>2min</strong></li><li><strong>涂板一半菌液</strong>即可</li><li>37℃培养，挑菌，摇菌测序</li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Medicine</tag>
+      
+      <tag>RuanLab</tag>
+      
+      <tag>Protocol</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>[RuanLab]共转染</title>
+    <link href="/2026/04/19/RuanLab-%E5%85%B1%E8%BD%AC%E6%9F%93/"/>
+    <url>/2026/04/19/RuanLab-%E5%85%B1%E8%BD%AC%E6%9F%93/</url>
+    
+    <content type="html"><![CDATA[<div class="note note-info">            <p><strong>🔬说在前面：</strong><br>默认做好无菌规范操作，不再强调</p>          </div><div class="note note-danger">            <p><strong>⚠️注意事项</strong><br>本指南仅<strong>个人记录</strong>，且<strong>仅供参考</strong>，若因参考本指南造成任何后果，<strong>本人不承担任何责任！</strong></p>          </div><h2 id="元件比例："><a href="#元件比例：" class="headerlink" title="元件比例："></a>元件比例：</h2><ul><li>片段A：<strong>0.5μg</strong></li><li>片段B：<strong>0.5μg</strong></li><li>PEI：<strong>1μg</strong> 质粒对应 <strong>3μL</strong> PEI + <strong>50μL</strong> 培养基</li></ul><h2 id="操作步骤："><a href="#操作步骤：" class="headerlink" title="操作步骤："></a>操作步骤：</h2><ol><li>质粒与培养基先配、PEI与培养基先配；</li><li>混合，<strong>反应15min</strong>；</li><li>取6孔板，每个孔种入 <strong>100W</strong> 的<strong>293T</strong>细胞；</li><li>加入反应完的混合液，每个孔补充培养基到<strong>1mL</strong></li><li>37℃培养</li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Medicine</tag>
+      
+      <tag>RuanLab</tag>
+      
+      <tag>Protocol</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>[RuanLab]病毒构建</title>
+    <link href="/2026/04/19/RuanLab-%E7%97%85%E6%AF%92%E6%9E%84%E5%BB%BA/"/>
+    <url>/2026/04/19/RuanLab-%E7%97%85%E6%AF%92%E6%9E%84%E5%BB%BA/</url>
+    
+    <content type="html"><![CDATA[<div class="note note-info">            <p><strong>🔬说在前面：</strong><br>默认做好无菌规范操作，不再强调；<br>病毒操作的枪头应丢入84瓶中；<br>病毒4℃不能保存太久</p>          </div><div class="note note-danger">            <p><strong>⚠️注意事项</strong><br>本指南仅<strong>个人记录</strong>，且<strong>仅供参考</strong>，若因参考本指南造成任何后果，<strong>本人不承担任何责任！</strong></p>          </div><h2 id="元件比例："><a href="#元件比例：" class="headerlink" title="元件比例："></a>元件比例：</h2><ul><li>目的片段：元件 &#x3D; <strong>3 : 1 : 1 : 1</strong></li><li>质量：<strong>2μg : 0.67μg : 0.67μg : 0.67μg</strong></li><li>PEI：<strong>1μg</strong> 质粒对应 <strong>3μL</strong> PEI + <strong>100μL</strong> 培养基</li></ul><h2 id="操作步骤："><a href="#操作步骤：" class="headerlink" title="操作步骤："></a>操作步骤：</h2><ol><li>拿2个离心管，分别加入：<ul><li>目的片段+元件（共4μg）+ <strong>200μL</strong>培养基</li><li>PEI <strong>12μL</strong> + <strong>200μL</strong>培养基</li></ul></li><li>混合，<strong>反应15min</strong>；</li><li>取6孔板，每个孔种入 <strong>400W~500W</strong> 的<strong>293T</strong>细胞；</li><li>加入反应完的混合液，每个孔补充培养基到<strong>2mL</strong></li><li><strong>96h</strong>后收取</li><li>收集液体，<strong>1700rpm</strong>，离心<strong>10min</strong></li><li>取上清，保存</li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Medicine</tag>
+      
+      <tag>RuanLab</tag>
+      
+      <tag>Protocol</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>[RuanLab]细胞传代其他情况补充</title>
+    <link href="/2026/04/19/RuanLab-%E7%BB%86%E8%83%9E%E4%BC%A0%E4%BB%A3%E5%85%B6%E4%BB%96%E6%83%85%E5%86%B5%E8%A1%A5%E5%85%85/"/>
+    <url>/2026/04/19/RuanLab-%E7%BB%86%E8%83%9E%E4%BC%A0%E4%BB%A3%E5%85%B6%E4%BB%96%E6%83%85%E5%86%B5%E8%A1%A5%E5%85%85/</url>
+    
+    <content type="html"><![CDATA[<div class="note note-info">            <p><strong>🔬说在前面：</strong><br>默认做好无菌规范操作，不再强调</p>          </div><div class="note note-danger">            <p><strong>⚠️注意事项</strong><br>本指南仅<strong>个人记录</strong>，且<strong>仅供参考</strong>，若因参考本指南造成任何后果，<strong>本人不承担任何责任！</strong></p>          </div><h2 id="规格相关差异"><a href="#规格相关差异" class="headerlink" title="规格相关差异"></a>规格相关差异</h2><ol><li><strong>10cm培养皿</strong>：<ul><li><strong>RPE1</strong>：<ul><li>传代接种：<strong>50W</strong></li></ul></li><li><strong>293T</strong>：<ul><li>传代接种：<strong>500W</strong></li></ul></li></ul></li><li><strong>6cm培养皿</strong>：<ul><li><strong>RPE1</strong>：<ul><li>传代接种：<strong>20W</strong>；</li><li>PBS洗：<strong>2mL</strong>；</li><li>胰酶：<strong>300μL</strong>；</li><li>吹打：<strong>1mL</strong>；</li><li>总DMEM+F12+FBS：<strong>3.5mL</strong></li></ul></li></ul></li><li><strong>6孔板</strong>：<ul><li><strong>RPE1</strong>：<ul><li>传代接种：<strong>10W</strong>；</li><li>PBS洗：<strong>1mL</strong>；</li><li>胰酶： <strong>200μL</strong>；</li><li>吹打： <strong>1mL</strong>;</li><li>总DMEM+F12+FBS：<strong>2mL</strong></li></ul></li></ul></li><li><strong>12孔板</strong>：<ul><li>共<strong>1mL</strong></li></ul></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Medicine</tag>
+      
+      <tag>RuanLab</tag>
+      
+      <tag>Protocol</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>20260419</title>
     <link href="/2026/04/19/20260419/"/>
     <url>/2026/04/19/20260419/</url>
