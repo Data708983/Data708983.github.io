@@ -26,15 +26,15 @@
 <meta property="og:site_name" content="Data_7&#39;s Blog">
 <meta property="og:description" content="本笔记记录了GEO数据库的相关信息以及如何从GEO下载芯片数据。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://blog.dataseven.fun/%5Cimg%5Cpost%5C%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD%5C0847530fcac3cd09b4d30d281b27f02f.jpg">
+<meta property="og:image" content="http://blog.dataseven.fun/%5Cimg%5Cpost%5CBioinfomatic01%5C0847530fcac3cd09b4d30d281b27f02f.jpg">
 <meta property="article:published_time" content="2026-07-25T07:35:07.000Z">
-<meta property="article:modified_time" content="2026-07-25T11:39:45.507Z">
+<meta property="article:modified_time" content="2026-07-25T11:44:06.008Z">
 <meta property="article:author" content="Data708983">
 <meta property="article:tag" content="Medicine">
 <meta property="article:tag" content="生信">
 <meta property="article:tag" content="生信入门笔记">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://blog.dataseven.fun/%5Cimg%5Cpost%5C%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD%5C0847530fcac3cd09b4d30d281b27f02f.jpg">
+<meta name="twitter:image" content="http://blog.dataseven.fun/%5Cimg%5Cpost%5CBioinfomatic01%5C0847530fcac3cd09b4d30d281b27f02f.jpg">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -276,7 +276,7 @@
             
               <div class="markdown-body">
                 
-                <p><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/bg.png" srcset="/img/loading.gif" lazyload></p>
+                <p><img src="/img/post/Bioinfomatic01/bg.png" srcset="/img/loading.gif" lazyload></p>
 <blockquote>
 <p>参考视频：</p>
 </blockquote>
@@ -301,25 +301,25 @@
             </i><span class="view-flex single-ellipsis author-name">华哥生信AI</span></div></div></div></a></div>
 <hr>
 <p><strong>GEO芯片数据</strong>已经是几十年以前的技术了，现在一般使用RNAseq等数据。但十几年前的数据也是数据，可以参考挖掘。</p>
-<h3 id="GEO数据库信息"><a href="#GEO数据库信息" class="headerlink" title="GEO数据库信息"></a>GEO数据库信息</h3><p>GEO网址：<a target="_blank" rel="noopener" href="https://www.ncbi.nlm.nih.gov/geo/">https://www.ncbi.nlm.nih.gov/geo/</a> 。在其中搜索栏搜索对应数据编号即可获取数据（此处使用数据<a target="_blank" rel="noopener" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE12417">GSE12417</a>），需要关注以下信息：<br><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/96387a74521e21d1a617ad42354cd01a.png" srcset="/img/loading.gif" lazyload alt="数据信息1"></p>
+<h3 id="GEO数据库信息"><a href="#GEO数据库信息" class="headerlink" title="GEO数据库信息"></a>GEO数据库信息</h3><p>GEO网址：<a target="_blank" rel="noopener" href="https://www.ncbi.nlm.nih.gov/geo/">https://www.ncbi.nlm.nih.gov/geo/</a> 。在其中搜索栏搜索对应数据编号即可获取数据（此处使用数据<a target="_blank" rel="noopener" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE12417">GSE12417</a>），需要关注以下信息：<br><img src="/img/post/Bioinfomatic01/96387a74521e21d1a617ad42354cd01a.png" srcset="/img/loading.gif" lazyload alt="数据信息1"></p>
 <div class="note note-danger">
             <p>⚠️不要用分析RNAseq单细胞的方法分析芯片数据，反之亦然！！</p>
           </div>
 <div class="note note-info">
             <p>如果是芯片数据，Experiment type 会显示<em>Expression profiling by array</em>，而二代测序则显示高通量测序，请注意区分。</p>
           </div>
-<p><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/8f8d04a8ae533c18b27dbe44a6ec796f.png" srcset="/img/loading.gif" lazyload alt="数据信息2"><br>我们应关注测试平台 Platforms。此外，RNAseq 数据的 Relations 中会包含RSA测序原始文件，但芯片Array 并不包含。<br>那芯片数据的原始数据在哪？原来是在 Supplementary file 之中。而我们需要使用的表达矩阵，则存在于 Download family之中。<br><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/c0a5483e163729345a095f32805548ec.png" srcset="/img/loading.gif" lazyload alt="数据信息3"></p>
+<p><img src="/img/post/Bioinfomatic01/8f8d04a8ae533c18b27dbe44a6ec796f.png" srcset="/img/loading.gif" lazyload alt="数据信息2"><br>我们应关注测试平台 Platforms。此外，RNAseq 数据的 Relations 中会包含RSA测序原始文件，但芯片Array 并不包含。<br>那芯片数据的原始数据在哪？原来是在 Supplementary file 之中。而我们需要使用的表达矩阵，则存在于 Download family之中。<br><img src="/img/post/Bioinfomatic01/c0a5483e163729345a095f32805548ec.png" srcset="/img/loading.gif" lazyload alt="数据信息3"></p>
 <div class="note note-info">
             <p>如果是 RNAseq 数据，那么表达矩阵应存放在 Supplementary file 之中。</p>
           </div>
 <h3 id="Platform平台信息"><a href="#Platform平台信息" class="headerlink" title="Platform平台信息"></a>Platform平台信息</h3><ul>
 <li><strong>芯片数据（Microarray，如基因表达芯片）</strong><br>芯片技术利用探针杂交原理。已知的基因序列对应的探针固定在芯片上，样品中的DNA或RNA与探针杂交，杂交强度与荧光信号的强弱成比例，用来反映基因的表达水平或基因变异。</li>
 </ul>
-<p><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/Schematic-diagram-of-gene-chip-assay-Typical-gene-chip-assay-includes-five-steps-ie.png" srcset="/img/loading.gif" lazyload alt="Gene Chip"><br>这里的U133A、U133B是不同版本的芯片型号。<br><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/83caeef74fa039dc3fd8ae3c6d4b4f78.png" srcset="/img/loading.gif" lazyload alt="型号"><br>点开平台信息向下拖动找到 Data table，ID 即为探针，Gene Symbol 即为基因名（如 CCL5、DDR1 之类的），由于特异性有限，会出现<strong>一个探针对应多个基因的现象</strong>。<br><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/f9e26cc8-fdb0-495c-9972-5b6b0c68adcb.png" srcset="/img/loading.gif" lazyload alt="Data table"><br>点开样品信息可以看到样本详情，我们应关注样本数据处理方式 Data processing，了解该数据通过什么方式得来。<br><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/2e92e049-b3ad-4b3d-9e3e-1d9cee730799.png" srcset="/img/loading.gif" lazyload alt="Data processing"></p>
-<h3 id="表达矩阵数据下载"><a href="#表达矩阵数据下载" class="headerlink" title="表达矩阵数据下载"></a>表达矩阵数据下载</h3><h4 id="从网页下载"><a href="#从网页下载" class="headerlink" title="从网页下载"></a>从网页下载</h4><p>在 Download family 之中选择表达矩阵 Series Matrix File(s) 下载一个表达矩阵（此处下载了<a target="_blank" rel="noopener" href="https://ftp.ncbi.nlm.nih.gov/geo/series/GSE12nnn/GSE12417/matrix/GSE12417-GPL570_series_matrix.txt.gz">GSE12417-GPL570_series_matrix.txt.gz</a>）<br><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/01b434733f0de8e000da43d03b96f4c2.png" srcset="/img/loading.gif" lazyload alt="下载表达矩阵"><br>在文本编辑器中打开即可看到所需的数据以及其结构，在后续的文章中将详细分析。<br><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/3c374cf3-c180-4c5d-892a-90291bff5887.png" srcset="/img/loading.gif" lazyload alt="表达矩阵"></p>
+<p><img src="/img/post/Bioinfomatic01/Schematic-diagram-of-gene-chip-assay-Typical-gene-chip-assay-includes-five-steps-ie.png" srcset="/img/loading.gif" lazyload alt="Gene Chip"><br>这里的U133A、U133B是不同版本的芯片型号。<br><img src="/img/post/Bioinfomatic01/83caeef74fa039dc3fd8ae3c6d4b4f78.png" srcset="/img/loading.gif" lazyload alt="型号"><br>点开平台信息向下拖动找到 Data table，ID 即为探针，Gene Symbol 即为基因名（如 CCL5、DDR1 之类的），由于特异性有限，会出现<strong>一个探针对应多个基因的现象</strong>。<br><img src="/img/post/Bioinfomatic01/f9e26cc8-fdb0-495c-9972-5b6b0c68adcb.png" srcset="/img/loading.gif" lazyload alt="Data table"><br>点开样品信息可以看到样本详情，我们应关注样本数据处理方式 Data processing，了解该数据通过什么方式得来。<br><img src="/img/post/Bioinfomatic01/2e92e049-b3ad-4b3d-9e3e-1d9cee730799.png" srcset="/img/loading.gif" lazyload alt="Data processing"></p>
+<h3 id="表达矩阵数据下载"><a href="#表达矩阵数据下载" class="headerlink" title="表达矩阵数据下载"></a>表达矩阵数据下载</h3><h4 id="从网页下载"><a href="#从网页下载" class="headerlink" title="从网页下载"></a>从网页下载</h4><p>在 Download family 之中选择表达矩阵 Series Matrix File(s) 下载一个表达矩阵（此处下载了<a target="_blank" rel="noopener" href="https://ftp.ncbi.nlm.nih.gov/geo/series/GSE12nnn/GSE12417/matrix/GSE12417-GPL570_series_matrix.txt.gz">GSE12417-GPL570_series_matrix.txt.gz</a>）<br><img src="/img/post/Bioinfomatic01/01b434733f0de8e000da43d03b96f4c2.png" srcset="/img/loading.gif" lazyload alt="下载表达矩阵"><br>在文本编辑器中打开即可看到所需的数据以及其结构，在后续的文章中将详细分析。<br><img src="/img/post/Bioinfomatic01/3c374cf3-c180-4c5d-892a-90291bff5887.png" srcset="/img/loading.gif" lazyload alt="表达矩阵"></p>
 <h4 id="在-R-studio-下载"><a href="#在-R-studio-下载" class="headerlink" title="在 R studio 下载"></a>在 R studio 下载</h4><p>R语言中有专门的<strong>GEOquery</strong>包下载GEO数据：</p>
 <figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs R"><span class="hljs-comment"># 判断R环境是否已经安装BiocManager，若没有则安装</span><br><span class="hljs-keyword">if</span><span class="hljs-punctuation">(</span><span class="hljs-operator">!</span>requireNamespace<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;BiocManager&quot;</span><span class="hljs-punctuation">,</span>quietly <span class="hljs-operator">=</span> <span class="hljs-literal">TRUE</span><span class="hljs-punctuation">)</span><span class="hljs-punctuation">)</span>install.packages<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;BiocManager&quot;</span><span class="hljs-punctuation">)</span><br><span class="hljs-comment"># 使用BiocManager的install方法安装GEOquery包，以导入GEO数据</span><br>BiocManager<span class="hljs-operator">::</span>install<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;GEOquery&quot;</span><span class="hljs-punctuation">)</span><br><span class="hljs-comment"># 此处::install是使用BiocManager命名空间中的函数install函数的意思</span><br><br><span class="hljs-comment"># 加载GEOquery包</span><br>library<span class="hljs-punctuation">(</span>GEOquery<span class="hljs-punctuation">)</span><br><span class="hljs-comment"># 获取数据，并将数据下载在本路径（destdir = &quot;.&quot;）</span><br><span class="hljs-comment"># getGPL = FALSE说明不下载平台信息，可以使用浏览器下载，防止R console网络波动导致的下载失败</span><br>gset <span class="hljs-operator">&lt;-</span> getGEO<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;GSE12417&quot;</span><span class="hljs-punctuation">,</span> destdir <span class="hljs-operator">=</span> <span class="hljs-string">&quot;.&quot;</span><span class="hljs-punctuation">,</span> getGPL <span class="hljs-operator">=</span> <span class="hljs-literal">FALSE</span><span class="hljs-punctuation">)</span><br><span class="hljs-comment"># 可选查看数据</span><br><span class="hljs-comment"># View(gset)</span><br></code></pre></td></tr></table></figure>
-<p>可以发现，R已经将GEO数据下载在了本地，并导入到了<strong>Environment</strong>中。<br><img src="/img/post/%5B%E7%94%9F%E4%BF%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D1.GEO%E8%8A%AF%E7%89%87%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/8568a04c-fa69-43e3-9800-ff3f73c54204.png" srcset="/img/loading.gif" lazyload alt="R下载表达矩阵"></p>
+<p>可以发现，R已经将GEO数据下载在了本地，并导入到了<strong>Environment</strong>中。<br><img src="/img/post/Bioinfomatic01/8568a04c-fa69-43e3-9800-ff3f73c54204.png" srcset="/img/loading.gif" lazyload alt="R下载表达矩阵"></p>
 <div class="note note-info">
             <p>此处使用GSE号下载的是全部样本的数据，相应的，使用GSM号下载的便是单个样本信息，使用GPL号下载的便是平台信息。</p>
           </div>
