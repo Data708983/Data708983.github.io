@@ -19,16 +19,16 @@
   <meta name="author" content="Data708983">
   <meta name="keywords" content="">
   
-    <meta name="description" content="本笔记记录了生信相关部分R语言基础知识（不代表没有编程基础）。">
+    <meta name="description" content="本笔记记录了生信相关部分R语言基础知识。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[生信入门笔记]2.生信相关R语言基础">
 <meta property="og:url" content="http://blog.dataseven.fun/2026/07/26/%E7%94%9F%E4%BF%A1%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0-2-%E7%94%9F%E4%BF%A1%E7%9B%B8%E5%85%B3R%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/index.html">
 <meta property="og:site_name" content="Data_7&#39;s Blog">
-<meta property="og:description" content="本笔记记录了生信相关部分R语言基础知识（不代表没有编程基础）。">
+<meta property="og:description" content="本笔记记录了生信相关部分R语言基础知识。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://blog.dataseven.fun/img/post/Bioinfomatic01/0847530fcac3cd09b4d30d281b27f02f.jpg">
 <meta property="article:published_time" content="2026-07-26T12:10:39.000Z">
-<meta property="article:modified_time" content="2026-07-26T13:51:58.289Z">
+<meta property="article:modified_time" content="2026-07-26T14:23:34.374Z">
 <meta property="article:author" content="Data708983">
 <meta property="article:tag" content="Medicine">
 <meta property="article:tag" content="生信">
@@ -214,7 +214,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.4k 字
+          1.5k 字
         
       </span>
     
@@ -225,7 +225,7 @@
         
         
         
-          12 分钟
+          13 分钟
         
       </span>
     
@@ -347,7 +347,15 @@
 <li><strong>字符索引（按名称取）</strong><br>如果向量有名称属性（names），你可以直接使用字符串来提取，而不用记住位置。这在提取特定基因时非常直观。</li>
 </ol>
 <h3 id="数据框-Data-frame"><a href="#数据框-Data-frame" class="headerlink" title="数据框 Data frame"></a>数据框 Data frame</h3><p>矩阵 Matrix 其实是数据框的一种特殊形式（数据类型一致）。</p>
-<h3 id="R-中数据的储存与读取"><a href="#R-中数据的储存与读取" class="headerlink" title="R 中数据的储存与读取"></a>R 中数据的储存与读取</h3>
+<h3 id="R-中数据的储存与读取"><a href="#R-中数据的储存与读取" class="headerlink" title="R 中数据的储存与读取"></a>R 中数据的储存与读取</h3><h4 id="数据的读取"><a href="#数据的读取" class="headerlink" title="数据的读取"></a>数据的读取</h4><ol>
+<li>文本数据的读取<br>文档可以用文本编辑器或者 Excel（推荐）打开。<br>若要将此文档读取入 R studio 项目中，可以使用 <strong>read.table</strong> 或 <strong>read.csv</strong> 函数进行。此处请手动下载<a target="_blank" rel="noopener" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?mode=raw&is_datatable=true&acc=GPL570&id=55999&db=GeoDb_blob143">GPL570的平台信息</a>到项目目录。</li>
+</ol>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs R"><span class="hljs-comment"># 读取txt文件</span><br><span class="hljs-comment"># read.table读取txt文件</span><br>anno1 <span class="hljs-operator">&lt;-</span> read.table<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;GPL570-55999.txt&quot;</span><span class="hljs-punctuation">,</span> sep <span class="hljs-operator">=</span> <span class="hljs-string">&quot;\t&quot;</span><span class="hljs-punctuation">,</span> header <span class="hljs-operator">=</span> <span class="hljs-built_in">T</span><span class="hljs-punctuation">,</span> fill <span class="hljs-operator">=</span> <span class="hljs-built_in">T</span><span class="hljs-punctuation">)</span><br><span class="hljs-comment"># 排除1~17行元数据</span><br>anno2 <span class="hljs-operator">&lt;-</span> read.table<span class="hljs-punctuation">(</span><span class="hljs-string">&quot;GPL570-55999.txt&quot;</span><span class="hljs-punctuation">,</span> sep <span class="hljs-operator">=</span> <span class="hljs-string">&quot;\t&quot;</span><span class="hljs-punctuation">,</span> header <span class="hljs-operator">=</span> <span class="hljs-built_in">T</span><span class="hljs-punctuation">,</span> fill <span class="hljs-operator">=</span> <span class="hljs-built_in">T</span><span class="hljs-punctuation">,</span> skip <span class="hljs-operator">=</span> <span class="hljs-number">17</span><span class="hljs-punctuation">)</span><br></code></pre></td></tr></table></figure>
+<p>可以观察到，该数据表已经被成功读取。且 anno1 与 anno2 完全一致。<br><img src="/img/post/Bioinfomatic02/855eee32adb0e10f8444778b26eed159.png" srcset="/img/loading.gif" lazyload alt="read.table读取"></p>
+<blockquote>
+<p>未完待续</p>
+</blockquote>
+
                 
               </div>
             
